@@ -1,0 +1,7 @@
+state,label,average_proportion,source
+H,Healthy,0.836388,"V16 Table 2: unweighted mean of cycle-specific NHANES proportions (cycles labelled 2006-2020); survey weights not documented - to be verified/recomputed"
+P,Prediabetes,0.052946,V16 Table 2
+T,Type 2 diabetes without complications,0.064189,V16 Table 2
+Mi,Microvascular only,0.014481,V16 Table 2
+Ma,Macrovascular only,0.023559,V16 Table 2
+B,Micro- and macrovascular,0.008438,V16 Table 2

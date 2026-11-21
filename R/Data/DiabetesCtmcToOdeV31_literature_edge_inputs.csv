@@ -1,0 +1,11 @@
+edge,from,to,type,probability,horizon_years,source_key,reported_quantity_as_used_in_V16,provenance_status
+PT,P,T,mean_time,,9,tuso_prediabetes_2014,"T = 9 years","TO VERIFY: nature of '9 years' (mean? median? follow-up?) in source"
+TP,T,P,probability,0.092,3,tuso_prediabetes_2014,"9.2% in 3 years","TO VERIFY: regression T2D->prediabetes in source; competing risks not accounted"
+TMi,T,Mi,probability,0.12,3,Arnold2022,"12% in 3 years","Cohort cumulative incidence in heterogeneous T2DM cohort; marginal (competing risks ignored)"
+TMa,T,Ma,probability,0.058,3,Arnold2022,"5.8% in 3 years","Cohort cumulative incidence; marginal (competing risks ignored)"
+MiT,Mi,T,probability,0.046,2,karter2014,"4.6% in 2 years","TO VERIFY: Karter et al. study diabetes remission, not regression of microvascular complications"
+MiB,Mi,B,probability,0.076,3,Arnold2022,"7.6% in 3 years","Source population not restricted to microvascular-only baseline; approximation"
+MiD,Mi,D,probability,0.382,13,piliponiene2021,"38.2% in 13 years","Cumulative mortality over a 13-year window; marginal"
+MaB,Ma,B,probability,0.178,3,Arnold2022,"17.8% in 3 years","V16 Table 1 printed 0.0649; exact conversion gives 0.0653"
+MaD,Ma,D,mean_time,,5,"you2025;gedebjerg2018;ma2022;wong2023","T = 5 years","NOT SUPPORTED as cited: cited sources do not report a 5-year mean survival from macrovascular disease; placeholder"
+BD,B,D,mean_time,,5,"you2025;gedebjerg2018;ma2022;wong2023","T = 5 years","NOT SUPPORTED as cited: placeholder"
